@@ -17,3 +17,5 @@ pip install -r requirements.txt
 # Important things
 [DQN_Pong.ipynb](./DQN_Pong.ipynb) all the code of this project.  
 [checkpoints/best_pong_dqn.pt](checkpoints/best_pong_dqn.pt) has the weights of the best model.
+
+You can find the whole repo in this [link](https://github.com/adriangt2001/C5-RL).

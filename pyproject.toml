@@ -1,0 +1,33 @@
+[project]
+name = "c5-rl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "autorom[accept-rom-license]>=0.6.1",
+    "greenlet==3.1.1",
+    "gym[atari]==0.25.0",
+    "imageio>=2.37.3",
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.1.6",
+    "matplotlib>=3.10.9",
+    "numpy<2",
+    "opencv-python>=4.11.0.86",
+    "optuna>=4.8.0",
+    "pandas>=2.3.3",
+    "pip>=26.1.1",
+    "plotly>=6.7.0",
+    "scikit-learn>=1.7.2",
+    "torch>=2.6.0",
+    "wandb>=0.27.0",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch" }
+torchvision = { index = "pytorch" }
+torchaudio = { index = "pytorch" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu124"

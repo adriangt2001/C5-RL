@@ -1,4 +1,4 @@
-## Previous installation
+# Previous installation
 
 First, make sure you have Python 3.10 installed and then create a virtual environment with that python version.
 
@@ -13,3 +13,7 @@ Once torch is installed, install the dependencies from the `requirements.txt` fi
 ```bash
 pip install -r requirements.txt
 ```
+
+# Important things
+[DQN_Pong.ipynb](./DQN_Pong.ipynb) all the code of this project.  
+[checkpoints/best_pong_dqn.pt](checkpoints/best_pong_dqn.pt) has the weights of the best model.
